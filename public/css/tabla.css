@@ -1,0 +1,115 @@
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -30px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #000000;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #000000;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #000000;
+}
+.filterable {
+    margin-top: 15px;
+}
+#divs{
+    border-color: #1089ff;
+}
+.panel-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    
+}
+
+.pull-right{
+    float: right!important;
+}
+.panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+.panel-primary>.panel-heading{
+    color: #FFF;
+    background-color: #1089ff;
+    border-color: #1089ff;
+}
+.panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+th{
+   color: #000000; 
+   font-size:  1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   background-clip: padding-box;
+   appearance: none;
+}
+.table{
+    --bs-table-hover-bg: rgba(152,222,245,96);
+    border-color: #1089ff;
+}
+
+.btn-xs{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-default{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon-filter:before {
+    content: "\e138";
+}
+
+.glyphicon-phone:before {
+    content: "\e145";
+}
+
+.glyphicon-map-marker:before {
+    content: "\e062";
+}
+
+.glyphicon-envelope:before {
+    content: "\2709";
+}
