@@ -6,8 +6,8 @@ class Info extends Component {
   render() {
     return (
         <div className="Info">
-            < Menu />
-            <h5>Info</h5>
+          < Menu />  
+          <h5>Info</h5>
         </div>
     );
   }
