@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>     
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <link href="css\bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\magnific-popup.css">
+    <link href="css\aos.css" rel="stylesheet">
+    <link href="css\estilos.css" rel="stylesheet">
+    <link href="css\tcu.css" rel="stylesheet">
+    <link href="css\tabla.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+    <script src="js\jquery.min.js"></script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="js\jquery.sticky.js"></script>
+    <script src="js\aos.js"></script>
+    <script src="js\jquery.magnific-popup.min.js"></script>
+    <script src="js\tcu-popup-option.js"></script>
+    <script src="js\scrollspy.min.js"></script>
+    <script src="js\custom.js"></script>
+    <script src="js\filtro.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,34 +31,88 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <title>TCU</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="root">
+      <!-- Acá va el contenido dinámico -->
+    </div>
+    <footer class="footer-10" id="contactos">
+      <section class="contact-section" id="contactos">
+          <div class="container px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5">
+                  <div class="col-12">
+                      <h2 class="mb-5 text-center conta" data-aos="fade-up">Contactos</h2>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <div class="container">
+          <div class="row mb-5 pb-3 no-gutters">
+              <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                  <div class="con con-1 w-100 py-5">
+                      <div class="con-info w-100 text-center">
+                          <div class="icon d-flex align-item-center justify-content-center">
+                              <span class="glyphicon glyphicon-phone icono"></span>
+                          </div>
+                          <div class="text">
+                              <span>(+00) 1234 5678</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                  <div class="con con-2 w-100 py-5">
+                      <div class="con-info w-100 text-center">
+                          <div class="icon d-flex align-item-center justify-content-center">
+                              <span class="glyphicon glyphicon-envelope icono"></span>
+                          </div>
+                          <div class="text">
+                              <span>info@email.com</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                  <div class="con con-3 w-100 py-5">
+                      <div class="con-info w-100 text-center">
+                          <div class="icon d-flex align-item-center justify-content-center">
+                              <span class="glyphicon glyphicon-map-marker icono"></span>
+                          </div>
+                          <div class="text">
+                              <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row mt-5 pt-4 border-top">
+              <div class="col-md-4 mb-md-0 mb-4 col-sm-2 text-center">
+                  <img class="img-fluid" src="public/img/1.jpg" alt="#" width="282" height="53">
+              </div>
+              <div class="col-md-4 mb-md-0 mb-4">
+                  <p class="copyright mb-0 text-center">
+                      Copyright ©2022 All rights reserved.
+                  </p>
+                  <p class="copyright mb-0 text-center">
+                      TC-688 Turrialba
+                  </p>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-4 text-md-right">
+                  <p class="copyright mb-0 text-center">
+                      Otros links importantes
+                  </p>
+                  <ul class="ftco-footer-social p-0 text-center">
+                      <li class="ftco-animate"><a href="https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu"><span class="tcu">TCU</span></a></li>
+                      <li class="ftco-animate youtube"><a href="#" ><span class="social-icon-link bi-youtube youtube"></span></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="./index.js"></script>
   </body>
 </html>
