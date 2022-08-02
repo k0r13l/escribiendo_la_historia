@@ -8,9 +8,9 @@ class Libros extends Component {
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <h2 class="mb-5 text-center" data-aos="fade-up">Libros</h2>
+                <h2 class="mb-5 text-center">Libros</h2>
               </div>
-              <div class="panel panel-primary filterable" data-aos="fade-up">
+              <div class="panel panel-primary filterable">
                 <div class="panel-heading">
                   <h3 class="panel-title">Libros TCU</h3>
                   <div class="pull-right">
