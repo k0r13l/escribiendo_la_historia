@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import Menu from './../pages/Menu';
-import Info from "./../pages/Info";
-import Libros from "./../pages/Libros";
+import Menu from './Menu';
+import Info from "./Info";
+import Libros from "./Libros";
+import Comunidades from "./Comunidades";
 
 class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends Component {
         < Menu />
         <Info />
         <Libros />
+        <Comunidades />
       </div>
     );
   }

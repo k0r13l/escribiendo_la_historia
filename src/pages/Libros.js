@@ -20,9 +20,9 @@ class Libros extends Component {
                 <table class="table table-hover table-bordered">
                   <thead class="tabla">
                     <tr class="filters">
-                      <th><input type="text" class="form-control" placeholder="#" disabled></input></th>
-                      <th><input type="text" class="form-control" placeholder="Nombre" disabled></input></th>
-                      <th><input type="text" class="form-control" placeholder="Resumen" disabled></input></th>
+                      <th><input type="text" class="form-control" placeholder="#" disabled /></th>
+                      <th><input type="text" class="form-control" placeholder="Nombre" disabled /></th>
+                      <th><input type="text" class="form-control" placeholder="Resumen" disabled /></th>
                       <th>Descargar</th>
                     </tr>
                   </thead>
