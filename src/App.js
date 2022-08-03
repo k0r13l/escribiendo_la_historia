@@ -7,6 +7,7 @@ import Libros from "./pages/Libros";
 import Comunidades from "./pages/Comunidades";
 import Contactos from "./pages/Contactos";
 import NotFound from "./pages/NotFound";
+import Tuis from "./comunidadPages/TuisComponents/Tuis";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route exact path="/libros" component={Libros} />
         <Route exact path="/comunidades" component={Comunidades} />
         <Route exact path="/contactos" component={Contactos} />
+        <Route exact path="/tuis" component={Tuis} />
         <Route path="*" component={NotFound} />
         </Switch>
       </Router>

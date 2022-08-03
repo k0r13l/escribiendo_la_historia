@@ -8,7 +8,7 @@ class Info extends Component {
           <div class="container mb-5 pb-lg-5">
             <div class="row">
               <div class="col-lg-6 col-12 mt-3 mb-lg-5 feature-box-1">
-                <h2 class="mb-3" data-aos="fade-up">Misión</h2>
+                <h2 class="mb-3">Misión</h2>
                 <p class="me-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
               </div>
 
