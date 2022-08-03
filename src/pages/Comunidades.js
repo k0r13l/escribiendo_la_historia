@@ -14,7 +14,7 @@ class Comunidades extends Component {
               <div class="col-md-4">
                 <div class="card lugar card-blog">
                   <div class="card-image image">
-                    <a href="#hero">
+                    <a href="/tuis">
                       <img class="img img-raised" src="img/f0f6d7da-1c03-4535-8d38-4b9174b66295.jpg"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
