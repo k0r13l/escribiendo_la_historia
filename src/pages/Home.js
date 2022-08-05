@@ -4,7 +4,10 @@ import Menu from './Menu';
 import Info from "./Info";
 import Libros from "./Libros";
 import Comunidades from "./Comunidades";
-import Hero from "./hero";
+
+import Mapa from "./Mapa";
+import Footer from "./Footer";
+import Hero from "./Hero";
 
 class Home extends Component {
   render() {
@@ -15,6 +18,8 @@ class Home extends Component {
         <Info />
         <Libros />
         <Comunidades />
+        <Mapa />
+        <Footer />
       </div>
     );
   }
