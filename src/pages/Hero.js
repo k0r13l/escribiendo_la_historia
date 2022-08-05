@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class HeroTuis extends Component {
+class Hero extends Component {
     render() {
         return (
-            <div className="HeroTuis">
+            <div className="Hero">
                 <section class="hero" id="hero">
                     <div class="heroText">
                         <h1 class="text-white mt-5 mb-lg-4">
@@ -25,4 +25,4 @@ class HeroTuis extends Component {
     }
 }
 
-export default HeroTuis;
+export default Hero;
