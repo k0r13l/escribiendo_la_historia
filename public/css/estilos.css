@@ -21,11 +21,18 @@
     padding: 15px;
     border: 3px solid red;
 }
+
 .footer-10 {
     background: #222;
     padding: 0 0 4em 0;
 }
 
+.navColor{
+    background-color: #000;
+}
+.navColors{
+    color:#ffff;
+}
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -152,10 +159,14 @@ small, .small {
     -webkit-transition: ease all 0.35s;
     transition: ease all 0.35s;
     top: 0;
+    
 }
+
 
 .feature-box-1 p {
     margin: 0;
+    color: rgb(0, 32, 74);
+    text-align: justify;
 }
 
 .feature-box-1:after {
@@ -181,6 +192,7 @@ small, .small {
 
 .feature-box-1:hover p {
     color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
 }
 
 .feature-box-1:hover:after {

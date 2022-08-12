@@ -15,6 +15,7 @@ class Home extends Component {
       <div className="Home">
         <Hero />
         <Menu />
+        <br/>
         <Info />
         <Libros />
         <Comunidades />

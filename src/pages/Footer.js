@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 class Footer extends Component {
     render() {
+        AOS.init()
+        AOS.refresh();
         return (
             <div className="Footer">
                 <footer class="footer-10" id="contactos">
@@ -8,7 +12,7 @@ class Footer extends Component {
                         <div class="container px-4 px-lg-5">
                             <div class="row gx-4 gx-lg-5">
                                 <div class="col-12">
-                                    <h2 class="mb-5 text-center conta">Contactos</h2>
+                                    <h2 class="mb-5 text-center conta" data-aos="fade-up">Contactos</h2>
                                 </div>
                             </div>
                         </div>

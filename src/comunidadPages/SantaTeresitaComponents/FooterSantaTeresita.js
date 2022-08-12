@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-class FooterTuis extends Component {
+class FooterSantaTeresita extends Component {
     render() {
         AOS.init()
         AOS.refresh();
         return (
-            <div className="FooterTuis">
+            <div className="FooterSantaTeresita">
                 <footer class="footer-10" id="contactos">
                     <section class="contact-section" id="contactos">
                         <div class="container px-4 px-lg-5">
@@ -88,4 +88,4 @@ class FooterTuis extends Component {
     }
 }
 
-export default FooterTuis;
+export default FooterSantaTeresita;

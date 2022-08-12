@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 class Libros extends Component {
   render() {
+    AOS.init()
+    AOS.refresh();
     return (
       <div className="Libros">
         <section class="section-padding" id="libros">
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <h2 class="mb-5 text-center">Libros</h2>
+                <h2 class="mb-5 text-center" data-aos="fade-up">Libros</h2>
               </div>
               <div class="panel panel-primary filterable">
                 <div class="panel-heading">
@@ -52,7 +55,9 @@ class Libros extends Component {
             </div>
           </div>
         </section>
+        <br/>
       </div>
+      
     );
   }
 }
