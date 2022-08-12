@@ -17,7 +17,7 @@ class MenuComunidad extends Component {
                                 <a class="nav-link" href="#hero">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#infoTuis">Tuis</a>
+                                <a class="nav-link" href="#detalle">Información</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#galeria">Galeria</a>
