@@ -3,7 +3,7 @@ class Menu extends Component {
     render() {
         return (
             <div className="Menu">
-                <nav class="navbar navbar-expand-lg bg-light shadow-lg navColor">
+                <nav class="navbar navbar-expand-lg bg-light shadow-lg">
                     <div class="container">
 
                         <a class="navbar-brand" href="index.php">
