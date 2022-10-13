@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-class Libros extends Component {
+class TableLibros extends Component {
   render() {
     AOS.init()
     AOS.refresh();
@@ -62,4 +62,4 @@ class Libros extends Component {
   }
 }
 
-export default Libros;
+export default TableLibros;

@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-class Menu extends Component {
+class MenuComunidad extends Component {
     render() {
         return (
             <div className="Menu">
                 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
                     <div class="container">
-
-                        <a class="navbar-brand" href="index.php">
+                        <a class="navbar-brand" href="/">
                             <strong>TC-688 Turrialba</strong>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,13 +17,16 @@ class Menu extends Component {
                                     <a class="nav-link" href="#hero">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#infoTcu">Información TCU</a>
+                                    <a class="nav-link" href="#detalle">Información</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#libros">Libros</a>
+                                    <a class="nav-link" href="#galeria">Galeria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#comunidades">Comunidades</a>
+                                    <a class="nav-link" href="#videos">Videos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#libro">Libro</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contactos">Contactos</a>
@@ -38,4 +40,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu;
+export default MenuComunidad;

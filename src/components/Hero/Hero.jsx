@@ -1,13 +1,11 @@
-import React, { Component } from "react";
 
-class HeroSantaTeresita extends Component {
-    render() {
+const Hero = (props) => {
         return (
-            <div className="HeroSantaTeresita">
+            <div className="Hero">
                 <section class="hero" id="hero">
                     <div class="heroText">
                         <h1 class="text-white mt-5 mb-lg-4">
-                            TC-688 Turrialba
+                            {props.name}
                         </h1>
 
                     </div>
@@ -22,7 +20,7 @@ class HeroSantaTeresita extends Component {
                 </section>
             </div>
         );
-    }
+    
 }
 
-export default HeroSantaTeresita;
+export default Hero;

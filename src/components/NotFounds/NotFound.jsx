@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Menu from './../pages/Menu';
+import Menu from '../Menu/Menu';
 
 class NotFound extends Component {
   render() {

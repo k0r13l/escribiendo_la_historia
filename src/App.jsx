@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Info from "./pages/Info";
-import Libros from "./pages/Libros";
-import Comunidades from "./pages/Comunidades";
-import Contactos from "./pages/Contactos";
-import NotFound from "./pages/NotFound";
+import Home from "./components/Home/Home";
+import Info from "./components/Info/Informacion";
+import Libros from "./components/Libros/TableLibros";
+import Comunidades from "./components/Comunidades/Comunidades";
+import Contactos from "./components/Contactos/Contactos";
+import NotFound from "./components/NotFounds/NotFound";
 import SantaTeresita from "./comunidadPages/SantaTeresitaComponents/SantaTeresita";
 
 class App extends Component {
