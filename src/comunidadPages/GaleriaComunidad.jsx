@@ -6,17 +6,18 @@ const GaleriaComunidad = (props) => {
                 <div class="container-fluid">
                     <div class="row">
                         <div class="gallery col-12">
-                            <h2 class="mb-5 text-center gallery-title" data-aos="fade-up">Galeria</h2>
+                            <h2 class="mb-5 text-center" data-aos="fade-up">Galeria</h2>
                         </div>
                         <div align="center">
                             <button class="filter-button active" data-filter="all">Todos</button>
                             <button class="filter-button" data-filter="actual">Actual</button>
                             <button class="filter-button" data-filter="antiguas">Antiguas</button>
                             <button class="filter-button" data-filter="museo">Museo</button>
+                            <button class="filter-button" data-filter="videos">Videos</button>
                             <br />
                         </div>
                         {props.actual.galeria.map(img => (
-                            <div class={img.estado}>
+                            <div class={`gallery_product col-sm-3 col-xs-6 filter ${img.estado}`} >
                                 <a href='3' data-bs-toggle="modal" data-bs-target={'#' + img.target}>
                                     <div class="card">
                                         <img class="zoom img-responsive" id="carousel1" alt="" src={img.img} />
@@ -34,7 +35,17 @@ const GaleriaComunidad = (props) => {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
-                                <img src={img.img} class="d-block w-100" alt="1" />
+                                {(() => {
+                                    if (img.video != null) {
+                                        return (
+                                            <iframe class="embed-responsive-item d-block w-100" id={img.id} title="modal" src={img.video} allowfullscreen></iframe>
+                                        )
+                                    }
+                                    return (
+                                        <img src={img.img} class="d-block w-100" alt="1" />
+                                    )
+
+                                })()}
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>

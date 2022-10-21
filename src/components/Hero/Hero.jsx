@@ -5,7 +5,7 @@ const Hero = (props) => {
                 <section class="hero" id="hero">
                     <div class="heroText">
                         <h1 class="text-white mt-5 mb-lg-4">
-                            {props.name}
+                            {props.hero.opcion.name}
                         </h1>
 
                     </div>
