@@ -74,8 +74,12 @@ const Footer = (props) => {
                                 <li class="ftco-animate"><a
                                     href={props.footer.links.url1}><span
                                         class="tcu">TCU</span></a></li>
+
                                 <li class="ftco-animate youtube"><a href={props.footer.links.url2}><span
-                                    class="social-icon-link bi-youtube youtube"></span></a></li>
+                                    class="bi-youtube youtube"></span></a></li>
+
+                                <li class="ftco-animate facebook"><a href={props.footer.links.url3}><span
+                                    class="bi-facebook facebook"></span></a></li>
                             </ul>
                         </div>
                     </div>
