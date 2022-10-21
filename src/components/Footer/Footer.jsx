@@ -72,13 +72,13 @@ const Footer = (props) => {
                             </p>
                             <ul class="ftco-footer-social p-0 text-center">
                                 <li class="ftco-animate"><a
-                                    href={props.footer.links.url1}><span
+                                    href={props.footer.links.url1} target="_blank" rel="noopener noreferrer"><span
                                         class="tcu">TCU</span></a></li>
 
-                                <li class="ftco-animate youtube"><a href={props.footer.links.url2}><span
+                                <li class="ftco-animate youtube"><a href={props.footer.links.url2} target="_blank" rel="noopener noreferrer"><span
                                     class="bi-youtube youtube"></span></a></li>
 
-                                <li class="ftco-animate facebook"><a href={props.footer.links.url3}><span
+                                <li class="ftco-animate facebook"><a href={props.footer.links.url3} target="_blank" rel="noopener noreferrer"><span
                                     class="bi-facebook facebook"></span></a></li>
                             </ul>
                         </div>
