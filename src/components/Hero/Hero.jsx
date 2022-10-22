@@ -11,11 +11,11 @@ const Hero = (props) => {
                     </div>
 
                     <div class="videoWrapper">
-                        <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" class="custom-video">
+                        <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" class="custom-video" poster="https://drive.google.com/uc?export=view&id=1apm_je0g4FZSMxCONPp5j3X43TPIDcuP">
                             <source src="https://drive.google.com/uc?export=view&id=1JQDBMteJCyDCqs8owikkXuOIlvoAfuOq" type="video/mp4" />
                         </video>
                     </div>
-
+                    
                     <div class="overlay"></div>
                 </section>
             </div>
