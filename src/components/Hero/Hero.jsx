@@ -11,8 +11,8 @@ const Hero = (props) => {
                     </div>
 
                     <div class="videoWrapper">
-                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="custom-video" poster="videos/792bd98f3e617786c850493560e11c45.jpg">
-                            <source src="videos/814dc43e870597176cad645798825c03.mp4" type="video/mp4" />
+                        <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" class="custom-video">
+                            <source src="videos/hero.mp4" type="video/mp4" />
                         </video>
                     </div>
 

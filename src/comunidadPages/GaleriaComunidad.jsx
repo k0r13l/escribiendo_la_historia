@@ -17,10 +17,10 @@ const GaleriaComunidad = (props) => {
                             <br />
                         </div>
                         {props.actual.galeria.map(img => (
-                            <div class={`gallery_product col-sm-3 col-xs-6 filter ${img.estado}`} >
+                            <div class={`gallery_product col-sm-3 col-xs-6 filter ${img.estado}`} id={img.id} key={img.target}>
                                 <a href='3' data-bs-toggle="modal" data-bs-target={'#' + img.target}>
                                     <div class="card">
-                                        <img class="zoom img-responsive" id="carousel1" alt="" src={img.img} />
+                                        <img class="zoom img-responsive" alt="" src={img.img} />
                                     </div>
                                 </a>
                             </div>))}
@@ -28,7 +28,7 @@ const GaleriaComunidad = (props) => {
                 </div>
             </section>
             {props.actual.galeria.map(img => (
-                <div class="modal fade" id={img.target} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id={img.target} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" key={img.target}>
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -38,7 +38,7 @@ const GaleriaComunidad = (props) => {
                                 {(() => {
                                     if (img.video != null) {
                                         return (
-                                            <iframe class="embed-responsive-item d-block w-100" id={img.id} title="modal" src={img.video} allowfullscreen></iframe>
+                                            <iframe class="embed-responsive-item d-block w-100" id={img.id} title="modal" src={img.video} allowFullScreen width="560" height="315"></iframe>
                                         )
                                     }
                                     return (
@@ -48,6 +48,7 @@ const GaleriaComunidad = (props) => {
                                 })()}
                             </div>
                             <div class="modal-footer">
+                                <p class="me-4" id="textoImg">{img.texto}</p>
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>

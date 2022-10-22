@@ -17,7 +17,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/aquiares">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/Aquiares/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -30,7 +30,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/laSuiza">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/Suiza/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -43,7 +43,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/peralta">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/Peralta/1.jpg"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -56,7 +56,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/sanAntonio">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/SanAntonio/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -69,7 +69,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/santaCruz">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/SantaCruz/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -82,7 +82,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/santaRosa">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/SantaRosa/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -95,7 +95,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/santaTeresita">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/SantaTeresita/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
@@ -108,7 +108,7 @@ class Comunidades extends Component {
                 <div class="card lugar card-blog">
                   <div class="card-image image">
                     <a href="/tuis">
-                      <img class="img img-raised" src="img/santaTeresita.jpeg"  alt="#"/>
+                      <img class="img img-raised" src="img/comunidadesImg/Tuis/1.png"  alt="#"/>
                         <i class="fas fa-search"></i>
                     </a>
                   </div>
