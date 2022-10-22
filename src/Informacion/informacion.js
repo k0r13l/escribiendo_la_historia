@@ -200,16 +200,16 @@ export const infoSuiza = {
 
 export const fotosSuiza = {
   galeria:[
-      {img: 'img/comunidadesImg/Suiza/2.png',target:'myModal1', estado:'antiguas', texto:'Fiestas patronales \n Usaban sombrero para recolectar el dinero de la ofrenda en las fiestas patronales.\n Nombres de personas que aparecen en la fotografía: Luis Abarca Rojas “El panadero de Canadá”', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/3.png',target:'myModal2', estado:'antiguas', texto:'El sacerdote ecuatoriano. \n Celebración eucarística dando la comunión \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca “El relojero”, el cardenal y el sacerdote de la iglesia de La Suiza José Calvache.', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/4.png',target:'myModal3', estado:'antiguas', texto:'Recibiendo reconocimiento \n Reconocimiento por su participación en la junta de educación de la escuela. \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca, Liliam Quesada, Cliver Alfaro, Manuel Parra y Rodrigo Herrero.', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/5.png',target:'myModal4', estado:'antiguas', texto:'Santa Misa con el señor cardenal. \n Comunión de la santa misa. \n Nombres de personas que aparecen en la fotografía:  Pablo Muñoz Vega.', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/2.jpg',target:'myModal1', estado:'antiguas', texto:'Fiestas patronales \n Usaban sombrero para recolectar el dinero de la ofrenda en las fiestas patronales.\n Nombres de personas que aparecen en la fotografía: Luis Abarca Rojas “El panadero de Canadá”', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/3.jpg',target:'myModal2', estado:'antiguas', texto:'El sacerdote ecuatoriano. \n Celebración eucarística dando la comunión \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca “El relojero”, el cardenal y el sacerdote de la iglesia de La Suiza José Calvache.', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/4.jpg',target:'myModal3', estado:'antiguas', texto:'Recibiendo reconocimiento \n Reconocimiento por su participación en la junta de educación de la escuela. \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca, Liliam Quesada, Cliver Alfaro, Manuel Parra y Rodrigo Herrero.', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/5.jpg',target:'myModal4', estado:'antiguas', texto:'Santa Misa con el señor cardenal. \n Comunión de la santa misa. \n Nombres de personas que aparecen en la fotografía:  Pablo Muñoz Vega.', id:'imgS'},
       {img: 'img/comunidadesImg/Suiza/10.jpg',target:'myModal9', estado:'actual', texto:'', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/12.png',target:'myModalVideo1', video:'https://www.youtube.com/embed/fKj5cLyiSuo', id:'1', estado:'videos'},
-      {img: 'img/comunidadesImg/Suiza/6.png',target:'myModal5', estado:'antiguas', texto:'Después de la Inundación de 1970 \n Viendo los desastres de la inundación. \n Nombres de personas que aparecen en la fotografía: Tobías Esquivel Muñoz', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/7.png',target:'myModal6', estado:'antiguas', texto:'Zafra de caña \n Cortando la caña en la finca de la familia Esquivel. \n Nombres de personas que aparecen en la fotografía: Peones de finca.', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/8.png',target:'myModal7', estado:'antiguas', texto:'Procesión religiosa en la finca de los Esquivel \n La procesión pasando el río Conejo con todo conjunto musical', id:'imgS'},
-      {img: 'img/comunidadesImg/Suiza/11.png',target:'myModalVideo2', video:'https://www.youtube.com/embed/i8-BSYWyflw', id:'2', estado:'videos'},
+      {img: 'img/comunidadesImg/Suiza/12.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/fKj5cLyiSuo', id:'1', estado:'videos'},
+      {img: 'img/comunidadesImg/Suiza/6.jpg',target:'myModal5', estado:'antiguas', texto:'Después de la Inundación de 1970 \n Viendo los desastres de la inundación. \n Nombres de personas que aparecen en la fotografía: Tobías Esquivel Muñoz', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/7.jpg',target:'myModal6', estado:'antiguas', texto:'Zafra de caña \n Cortando la caña en la finca de la familia Esquivel. \n Nombres de personas que aparecen en la fotografía: Peones de finca.', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/8.jpg',target:'myModal7', estado:'antiguas', texto:'Procesión religiosa en la finca de los Esquivel \n La procesión pasando el río Conejo con todo conjunto musical', id:'imgS'},
+      {img: 'img/comunidadesImg/Suiza/11.jpg',target:'myModalVideo2', video:'https://www.youtube.com/embed/i8-BSYWyflw', id:'2', estado:'videos'},
       {img: 'img/comunidadesImg/Suiza/9.jpg',target:'myModal8', estado:'actual', texto:'', id:'img1'}
     ]
   

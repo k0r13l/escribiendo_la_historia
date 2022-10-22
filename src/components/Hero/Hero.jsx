@@ -12,7 +12,7 @@ const Hero = (props) => {
 
                     <div class="videoWrapper">
                         <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" class="custom-video">
-                            <source src="videos/814dc43e870597176cad645798825c03.mp4" type="video/mp4" />
+                            <source src="https://drive.google.com/uc?export=view&id=1JQDBMteJCyDCqs8owikkXuOIlvoAfuOq" type="video/mp4" />
                         </video>
                     </div>
 
