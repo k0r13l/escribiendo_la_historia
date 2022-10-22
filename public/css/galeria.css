@@ -26,11 +26,11 @@
     background-color:#3F6184;
 	outline:none;
 }
-.gallery_product{
+/* .gallery_product{
     margin: 0px;
 	padding:0;
 	position:relative;
-}
+} */
 .gallery_product .img-info{
 	position: absolute;
     background: rgba(0,0,0,0.5);
@@ -51,5 +51,16 @@
    -webkit-transition: 2s;
     transition: 2s;
 }
-
+.card{
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+}
+ #img1{
+    display: block;
+  border: none !important;
+  width: 255px;
+    object-fit: cover;
+    
+}
 /*	end gallery */

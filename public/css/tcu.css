@@ -628,7 +628,11 @@ strong {
 .social-icon-link:hover {
   color: var(--primary-color);
 }
-
+#textoImg{
+  white-space: pre-line;
+  text-align: justify;
+  color: #000000;
+}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/

@@ -24,7 +24,7 @@ class TableLibros extends Component {
                   <thead class="tabla">
                     <tr class="filters">
                       <th><input type="text" class="form-control" placeholder="#" disabled /></th>
-                      <th><input type="text" class="form-control" placeholder="Nombre" disabled /></th>
+                      <th><input type="text" class="form-control" placeholder="Comunidad" disabled /></th>
                       <th><input type="text" class="form-control" placeholder="Resumen" disabled /></th>
                       <th>Descargar</th>
                     </tr>
@@ -32,21 +32,21 @@ class TableLibros extends Component {
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
+                      <td>Santa Teresita</td>
+                      <td>Santa Teresita o Lajas</td>
+                      <td>Libro</td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
+                      <td>Tuis</td>
+                      <td>Una comunidad</td>
+                      <td>Libro</td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
+                      <td>La Suiza</td>
+                      <td>Una comunidad</td>
+                      <td>Libro</td>
                     </tr>
 
                   </tbody>

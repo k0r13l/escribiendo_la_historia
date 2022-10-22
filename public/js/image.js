@@ -20,19 +20,12 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function(){
-    /* Get iframe src attribute value i.e. YouTube video url
-    and store it in a variable */
-    var url = $("#1").attr('src');
 
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
+$(document).ready(function(){
+    var url = $("#1").attr('src');
     $("#myModalVideo1").on('hide.bs.modal', function(){
         $("#1").attr('src', '');
     });
-
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
     $("#myModalVideo1").on('show.bs.modal', function(){
         $("#1").attr('src', url);
     });
