@@ -111,7 +111,84 @@ export const infoSantaTeresita = {
 
 export const fotosSantaTeresita = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1mApz88bZfEJPU0s2TEP5ng5aS2hSWAw7',
+      target:'myModal2', 
+      estado:'antiguas', 
+      texto:'Boyero'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=166_vOAFrPIypGeioyWwhZ7GlZJH6q9Nq',
+      target:'myModal3', 
+      estado:'antiguas', 
+      texto:'Cocina de leña'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1xUMmbAW_57Xp-4KcuXFqku0F2y-Hs4Lk',
+      target:'myModal4', 
+      estado:'antiguas', 
+      texto:'Cafetera'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1VLeSDOCRtglzg6ZY7W8yNwMisRuJ6pIG',
+      target:'myModal5', 
+      estado:'antiguas', 
+      texto:'Lámpara de canfín'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1wzSmFtzjngXrUGemhcFqUMGQbd0qVFpm',
+      target:'myModal6', 
+      estado:'actual', 
+      texto:'Calle principal'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1zY9i6FEBpUiLjO4wwCsvh2A6MyKQ9Q6i',
+      target:'myModal7', 
+      estado:'actual', 
+      texto:'Calle principal'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1oEZkgidXhDBT-HHeX-mA-dUZEJgPwCWG',
+      target:'myModal8', 
+      estado:'antiguas', 
+      texto:'Foto familiar'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1mowJBUzROBoXxYg3g4VrAVUQZ9rv_9yR',
+      target:'myModal9', 
+      estado:'actual', 
+      texto:'Iglesia católica'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1hmle9G-ZHZEA30E3VQGUqNsqqu8etIeB',
+      target:'myModal10', 
+      estado:'actual', 
+      texto:'Parque de la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1xD_BEYNOo2BZoYY-ow-n-UfkQ6s2DQCW',
+      target:'myModal11', 
+      estado:'museo',
+      texto:'Actividad por el cantonato de Turrialba'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1geL1IZC67CSbcpFnDOHq__6DLxyNz_yL',
+      target:'myModal12', 
+      estado:'museo', 
+      texto:'Actividad por el cantonato de Turrialba'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1vvGfvh7--i-RtzxLs_hJMLwGCf4dy1BJ',
+      target:'myModal13', 
+      estado:'museo', 
+      texto:'Actividad por el cantonato de Turrialba'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1fStiNdT_jLwLEOoVRX5RrCGtPFgj9eCC',
+      target:'myModal15', 
+      estado:'museo', 
+      texto:'Actividad en la escuela de Santa Teresita'
+    },
   ]
 };
 
@@ -150,7 +227,60 @@ export const infoTuis = {
 
 export const fotosTuis = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1UuWn8o_m6oawK7yqKTFLXhO3_xapRpWh',
+      target:'myModal1', 
+      estado:'antiguas', 
+      texto:'Empresa de autobuses'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1JQ1uqTGRD2Ve7VGuDXKDA0w2xFCliFmz',
+      target:'myModal2', 
+      estado:'antiguas', 
+      texto:'Partido de fútbol, El polvazal'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1koxkukhC_ZS-VymFcRum3nNES0Ms802_',
+      target:'myModal3', 
+      estado:'antiguas', 
+      texto:'Partido de fútbol, El polvazal (Campeones año 2000)'
+    },,
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1HZEvYHDSGnCfCLwH5nKyPDZIFd9BLDsT',
+      target:'myModal5', 
+      estado:'actual', 
+      texto:'Tuis'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1ZB3bFgJ9M58lj_nFFjaOLG4eR1jYrQk8',
+      target:'myModal6', 
+      estado:'actual', 
+      texto:'Tuis'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1HgJVVt4ueSgiZ4VjiJxlm6ZEq35YOmKX',
+      target:'myModal7', 
+      estado:'actual', 
+      texto:'Centro de Tuis'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1qXgOvJNutiJXzaqrKZdBEMrINhgErg6L',
+      target:'myModal8', 
+      estado:'actual', 
+      texto:'Puente Bailey | Tuis - Barrio 70'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1X5wtdZPqLlZlVxVW_Ty_3wC-VTi3ypt6',
+      target:'myModal9', 
+      estado:'actual', 
+      texto:'Zona de juegos para niños'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1Eit2n6qiT4quVa6B-WQcwm7NInoxi41A',
+      target:'myModal10', 
+      estado:'actual', 
+      texto:'Plaza pública de deportes'
+    }
   ]
   
 };
@@ -239,7 +369,84 @@ export const infoSanAntonio = {
 
 export const fotosSanAntonio = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1_Hiy1mrElSeuoFB0s9JkflMHUZ5TNsUY',
+      target:'myModal1', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1_a_eP8r1C_YLKJ6ZLvw9IKLZzXil0bZ3',
+      target:'myModal2', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=11Rk79fwITKerm4GNOphiEJhHX2dA5y0P',
+      target:'myModal3', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1cyukuvfFLHj89GjWspbVdb79AVRPr3Fe',
+      target:'myModal4', 
+      estado:'museo', 
+      texto:'Actividad con adultos y niños en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1DY5yYyvNFeyFcphOBzWFCPYJHjhtH2H1',
+      target:'myModal5', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1kWpgHc0RNky1rUK7t-xn7g_oeJnr7S6d',
+      target:'myModal6', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1MzBnKbGO2efT90f20eOWs76xA0wsVpTK',
+      target:'myModal7', 
+      estado:'museo', 
+      texto:'Museo realizado en la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1VTa_wlR-Yo-zMJeYSRaRaPi9wvnKU5Ch',
+      target:'myModal8', 
+      estado:'actual', 
+      texto:'Iglesia católica'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1cHf_zNRk1KdErH2A7_gpVrqqVT_blhJa',
+      target:'myModal9', 
+      estado:'actual', 
+      texto:'Salón multiusos de la comunidad'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1S6Oxh5Mh23p9wTM4-FM7-un67mRgSuTH',
+      target:'myModal10', 
+      estado:'actual', 
+      texto:'Haras Turrialba'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1nLdm4FZsgNWjlxbH3JBLAgDq2q4859hC',
+      target:'myModal11', 
+      estado:'antiguas', 
+      texto:'Coro de San Antonio'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1rQt2IKbGjBJNwAnssoerMvdTrC6CZMUh',
+      target:'myModal12', 
+      estado:'antiguas', 
+      texto:'Visita del expresidente Óscar Arias'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=13uFFESJdu7KaL2AHlGWwEbueIJeYYg6L',
+      target:'myModal13', 
+      estado:'antiguas', 
+      texto:'Boda de Don Colo y Doña Dulcelina'
+    },
   ]
   
 };
