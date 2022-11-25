@@ -111,13 +111,8 @@ export const infoSantaTeresita = {
 
 export const fotosSantaTeresita = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
-  
 };
 
 export const mapaSantaTeresita = {
@@ -155,11 +150,7 @@ export const infoTuis = {
 
 export const fotosTuis = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
   
 };
@@ -200,16 +191,16 @@ export const infoSuiza = {
 
 export const fotosSuiza = {
   galeria:[
-      {img: 'https://drive.google.com/uc?export=view&id=14lrHGG3m3Di_uina_KepvDZSYc2d6iaU',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'},
-      {img: 'https://drive.google.com/uc?export=view&id=10T2Qc9OfMk8LDSxG6ns1Q6AMEzoPDRuA',target:'myModal2', estado:'antiguas', texto:'Fiestas patronales \n Usaban sombrero para recolectar el dinero de la ofrenda en las fiestas patronales.\n Nombres de personas que aparecen en la fotografía: Luis Abarca Rojas “El panadero de Canadá”', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1-qRwQtHx-Q--1o5VJGTNwudVYPJO562D',target:'myModal3', estado:'antiguas', texto:'El sacerdote ecuatoriano. \n Celebración eucarística dando la comunión \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca “El relojero”, el cardenal y el sacerdote de la iglesia de La Suiza José Calvache.', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1vRTYQLDqrtV1CQVDeXpHGPR6B-NTqtPZ',target:'myModal4', estado:'antiguas', texto:'Recibiendo reconocimiento \n Reconocimiento por su participación en la junta de educación de la escuela. \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca, Liliam Quesada, Cliver Alfaro, Manuel Parra y Rodrigo Herrero.', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1mOu5XV5H89DTjXB24s1BVHi3arnpqesj',target:'myModal5', estado:'antiguas', texto:'Santa Misa con el señor cardenal. \n Comunión de la santa misa. \n Nombres de personas que aparecen en la fotografía:  Pablo Muñoz Vega.', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1f-UFOtkThyXY3B-zFuZiLDWOBD5ApS4S',target:'myModalVideo1', video:'https://www.youtube.com/embed/fKj5cLyiSuo', id:'1', estado:'videos'},
-      {img: 'https://drive.google.com/uc?export=view&id=18ZAItk94mh4N6jai2-WKFG_x9xx5somM',target:'myModal6', estado:'antiguas', texto:'Después de la Inundación de 1970 \n Viendo los desastres de la inundación. \n Nombres de personas que aparecen en la fotografía: Tobías Esquivel Muñoz', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1FF8BQhRGDRsw3pK6Z0yPe4-_00Ufyh3t',target:'myModal7', estado:'antiguas', texto:'Zafra de caña \n Cortando la caña en la finca de la familia Esquivel. \n Nombres de personas que aparecen en la fotografía: Peones de finca.', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1oT6Ni2J41Xomw-0mW05aQ1Nykotu10s-',target:'myModal8', estado:'antiguas', texto:'Procesión religiosa en la finca de los Esquivel \n La procesión pasando el río Conejo con todo conjunto musical', id:'imgS'},
-      {img: 'https://drive.google.com/uc?export=view&id=1u_6KeA5tKBdg8itr9leHij81Fhj4nfeJ',target:'myModalVideo2', video:'https://www.youtube.com/embed/i8-BSYWyflw', id:'2', estado:'videos'}
+      {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'},
+      {img: 'https://drive.google.com/uc?export=view&id=1he07xezudjpUocd2RJF9nG8dxMkKbAwP',target:'myModal2', estado:'antiguas', texto:'Fiestas patronales \n Usaban sombrero para recolectar el dinero de la ofrenda en las fiestas patronales.\n Nombres de personas que aparecen en la fotografía: Luis Abarca Rojas “El panadero de Canadá”', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1SOgs9RgnJb0AQ7OlerOqjAw9Gl42AQBq',target:'myModal3', estado:'antiguas', texto:'El sacerdote ecuatoriano. \n Celebración eucarística dando la comunión \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca “El relojero”, el cardenal y el sacerdote de la iglesia de La Suiza José Calvache.', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1e1Usz-1yqTN0bW5wQuT_Ur3w9YLuIh4D',target:'myModal4', estado:'antiguas', texto:'Recibiendo reconocimiento \n Reconocimiento por su participación en la junta de educación de la escuela. \n Nombres de personas que aparecen en la fotografía: Arnoldo Abarca, Liliam Quesada, Cliver Alfaro, Manuel Parra y Rodrigo Herrero.', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1HiMt_hhiPbGpbSV9h4n12gb54PdGv09C',target:'myModal5', estado:'antiguas', texto:'Santa Misa con el señor cardenal. \n Comunión de la santa misa. \n Nombres de personas que aparecen en la fotografía:  Pablo Muñoz Vega.', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1bsUChMstNeEn8qDc4DcWYaMbBPOL1L5a',target:'myModalVideo1', video:'https://www.youtube.com/embed/fKj5cLyiSuo', id:'1', estado:'videos'},
+      {img: 'https://drive.google.com/uc?export=view&id=14jbu51-hbWA1BFpGXIT65OVz8d_eYVRc',target:'myModal6', estado:'antiguas', texto:'Después de la Inundación de 1970 \n Viendo los desastres de la inundación. \n Nombres de personas que aparecen en la fotografía: Tobías Esquivel Muñoz', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=15FRoaJGJioP74Upr_Qt-voiCLTJ909EC',target:'myModal7', estado:'antiguas', texto:'Zafra de caña \n Cortando la caña en la finca de la familia Esquivel. \n Nombres de personas que aparecen en la fotografía: Peones de finca.', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1yOClBlrR_mwOCUSZHd5qrg8-4Mv6zRlA',target:'myModal8', estado:'antiguas', texto:'Procesión religiosa en la finca de los Esquivel \n La procesión pasando el río Conejo con todo conjunto musical', id:'imgS'},
+      {img: 'https://drive.google.com/uc?export=view&id=1odoou9rmRdVcs4Numa9kIIS9fBHHvZrj',target:'myModalVideo2', video:'https://www.youtube.com/embed/i8-BSYWyflw', id:'2', estado:'videos'}
     ]
 };
 
@@ -248,11 +239,7 @@ export const infoSanAntonio = {
 
 export const fotosSanAntonio = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
   
 };
@@ -292,11 +279,7 @@ export const infoSantaCruz = {
 
 export const fotosSantaCruz = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
   
 };
@@ -336,11 +319,7 @@ export const infoAquiares = {
 
 export const fotosAquiares = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
   
 };
@@ -380,11 +359,7 @@ export const infoSantaRosa = {
 
 export const fotosSantaRosa = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
   
 };
@@ -424,13 +399,8 @@ export const infoPeralta = {
 
 export const fotosPeralta = {
   galeria:[
-    {img: 'https://picsum.photos/400/250?image=122',target:'myModal1', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=526',target:'myModal2', estado:'actual'},
-    {img: 'https://picsum.photos/400/250?image=626',target:'myModal3', estado:'antiguas'},
-    {img: 'https://picsum.photos/400/250?image=486',target:'myModal4', estado:'museo'},
-    {img: 'img/1.jpg',target:'myModalVideo1', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'1', estado:'videos'}
+    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
   ]
-  
 };
 
 export const mapaPeralta = {
