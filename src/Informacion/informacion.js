@@ -279,7 +279,11 @@ export const infoSantaCruz = {
 
 export const fotosSantaCruz = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {img: 'https://drive.google.com/uc?export=view&id=1FleCpxM_GXzSCRFiqXMGMzBPq2UyMKsJ',target:'myModal1', estado:'antiguas', texto:'Equipo de fútbol'},
+    {img: 'https://drive.google.com/uc?export=view&id=1kIqqtyQohD-3mNYF_KRlAoiew2r6pmXa',target:'myModal2', estado:'antiguas', texto:'Foto antigua de unos niños en una plaza'},
+    {img: 'https://drive.google.com/uc?export=view&id=1RtZ0ynubEIlWjPWoh_0TmXUUPbSIJsBF',target:'myModal3', estado:'antiguas', texto:'Trabajadores'},
+    {img: 'https://drive.google.com/uc?export=view&id=1NPti8N3VvWFV9iBKd_gYhdGBE83DsDet',target:'myModal4', estado:'antiguas', texto:'Carreta antiguas'},
+    {img: 'https://drive.google.com/uc?export=view&id=15tYxZMSuQ4paZQEPkixVwnd-S1fUJspt',target:'myModal5', estado:'antiguas', texto:'Fiestas patronales'}
   ]
   
 };
@@ -319,7 +323,20 @@ export const infoAquiares = {
 
 export const fotosAquiares = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {img: 'https://drive.google.com/uc?export=view&id=1aTYxSGLxtO77OQ8OIL2HXLCBh9U_pISs',target:'myModal1', estado:'actual', texto:'Foto de la famosa catarata de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=12qsxrqkwLONfTsEEySObmBdnV-s0OdLq',target:'myModal2', estado:'actual', texto:'Escuela de la comunidad de Aquires'},
+    {img: 'https://drive.google.com/uc?export=view&id=1-9Fo8gmS9O-s3zu47uTmQ7NUkRB1xMUy',target:'myModal3', estado:'actual', texto:'Centro civico de La Suiza'},
+    {img: 'https://drive.google.com/uc?export=view&id=12IyVPsmifOZZIwTHhTvA05Fp4HsfVsMv',target:'myModal4', estado:'actual', texto:'Benefio de café en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1BGa9cMkrgg4a02Ftu6Dm0uCcv2xPTJa8',target:'myModal5', estado:'antiguas', texto:'Antiguo bus de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1IClo8-0VAo5xKgX7mFZNCuXlPo3Z2kZM',target:'myModal6', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1L558DesaCFZ8Vl9qdLBA2xj9qen64Y6i',target:'myModal7', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1yUbxy-6MUq2_yNcgspJHfynTtZLyhYY2',target:'myModal8', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=120c6tBHSp93hIHZDsBDQ_-xdy3qoQNGZ',target:'myModal9', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1e561mPhi0ZBr1iYpPrfVmQnQYvBMBQCv',target:'myModal10', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1fNmBB_K1uCQ1BMYXdlU3npAeVReqGFmH',target:'myModal11', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ROTC7ZeiuwwesgXzm_LU0VL5gIFSfN1X',target:'myModal12', estado:'antiguas', texto:'Linterna antigua'},
+    {img: 'https://drive.google.com/uc?export=view&id=1wsZ7_UmhW0gOGK8S4X9b37tYbV60r2FO',target:'myModal13', estado:'antiguas', texto:'Camara fotografica antigua'},
+    {img: 'https://drive.google.com/uc?export=view&id=1T4WI7b8PsrelsH-peyrhsydyO0yJfyYK',target:'myModal14', estado:'actual', texto:'Inglesia de Aquiares'}
   ]
   
 };
@@ -359,7 +376,14 @@ export const infoSantaRosa = {
 
 export const fotosSantaRosa = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {img: 'https://drive.google.com/uc?export=view&id=1p4iC0-EU4zZ5H6E0RTA2nZfmJQW2h7k-',target:'myModal1', estado:'antiguas', texto:'Desfile realizado en Santa Rosa'},
+    {img: 'https://drive.google.com/uc?export=view&id=1lTNxWH5xkCQ3tURN0_AECp8ZrSgcJGhf',target:'myModal2', estado:'antiguas', texto:'Semana Santa, Procesion'},
+    {img: 'https://drive.google.com/uc?export=view&id=1RHY_up6XK48-nIDb7pm7erEL8zKCwO7o',target:'myModal3', estado:'antiguas', texto:'Musicos de Santa Rosa'},
+    {img: 'https://drive.google.com/uc?export=view&id=1yXmjk3QUWBA_o2-HxE4Gyd2Ob1IfLC8S',target:'myModal4', estado:'antiguas', texto:'Casona de Santa Rosa-Turrialba'},
+    {img: 'https://drive.google.com/uc?export=view&id=1SI0dils_iBBg5LBpDFJOD0Mftd_Dzt27',target:'myModal5', estado:'antiguas', texto:'Tractor antigua a comparación de la actualidad'},
+    {img: 'https://drive.google.com/uc?export=view&id=1mjPCxkYw-xllmUxzQTd8mE7UIBEYrDOQ',target:'myModal6', estado:'museo', texto:'Entrada del museo que se realizó en la comunidad'},
+    {img: 'https://drive.google.com/uc?export=view&id=1oYgAoHPs8RPDLmnTNYnaI4n2eCJ5erxD',target:'myModal7', estado:'museo', texto:'Recorrido en el museo'},
+    {img: 'https://drive.google.com/uc?export=view&id=1WwYibhtg_yj_7nTrDz4I16sAnNj4j1Nt',target:'myModal8', estado:'museo', texto:'Recorrido en el museo'}
   ]
   
 };
@@ -399,7 +423,21 @@ export const infoPeralta = {
 
 export const fotosPeralta = {
   galeria:[
-    {img: 'https://drive.google.com/uc?export=view&id=1uanGRyVTaAPh7dd1xBwUWs-M_EyyDi0l',target:'myModal1', estado:'actual', texto:'Centro civico de La Suiza'}
+    {img: 'https://drive.google.com/uc?export=view&id=19qPThDkEQkTkEoOzFC2ZZFO5nPMPz1rJ',target:'myModal1', estado:'antiguas', texto:'Como eran los billetes en la antiguedad'},
+    {img: 'https://drive.google.com/uc?export=view&id=1jLwImdpJQdArr-dsbId1GmfFw9kjytgg',target:'myModal2', estado:'museo', texto:'Collage de fotos antiguas que se presentaron en el museo virtual'},
+    {img: 'https://drive.google.com/uc?export=view&id=1CbDErLdgYHxUcyWiRzzxbShQ8bfDPktU',target:'myModal3', estado:'museo', texto:'Collage de fotos antiguas que se presentaron en el museo virtual'},
+    {img: 'https://drive.google.com/uc?export=view&id=1r_L6Agb9sZ4zk3teOn87qPhdykYyc7pK',target:'myModal4', estado:'museo', texto:'Collage de fotos antiguas que se presentaron en el museo virtual'},
+    {img: 'https://drive.google.com/uc?export=view&id=1lhOzSnI4rNP9KahjPSVGSnrHVRWlX4NX',target:'myModal5', estado:'antiguas', texto:'Tren y vagones antiguos'},
+    {img: 'https://drive.google.com/uc?export=view&id=16vJmsjIDkI4CyGedHCXFBs0mvhKnSS_Y',target:'myModal6', estado:'antiguas', texto:'Tren y vagones antiguos'},
+    {img: 'https://drive.google.com/uc?export=view&id=10p3ncMA8vMLgaWHQ32vA_664c3QVfw44',target:'myModal7', estado:'antiguas', texto:'Las viejas vias de tren'},
+    {img: 'https://drive.google.com/uc?export=view&id=1PHOdMsYhMBycWuVHW21KUz34fhhd-H9F',target:'myModal8', estado:'actual', texto:'Don Efraín Bogantes y sus pinturas'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ojoHl1xO9dDRkT7YQ0opFzvHvfbKB2LD',target:'myModal9', estado:'actual', texto:'Don Efraín Bogantes y sus pinturas'},
+    {img: 'https://drive.google.com/uc?export=view&id=1xLEHyt-EkcD7T438WhotFJgIWwgmmGu_',target:'myModal10', estado:'actual', texto:'Don Efraín Bogantes y sus pinturas'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ybvKh98Ox6SHBp-XbrVlG4JhgdIzu90s',target:'myModal11', estado:'actual', texto:'Río reventazon'},
+    {img: 'https://drive.google.com/uc?export=view&id=14PTgWoH0urJQ06ZIbH-JhcDegH5YLeXh',target:'myModal12', estado:'actual', texto:'Actual puente de peatonal Peralta Río Reventazon'},
+    {img: 'https://drive.google.com/uc?export=view&id=1Qw87wdigciCM1DSNdAq99LRjOhc3sxo8',target:'myModal13', estado:'actual', texto:'Letrero de Bienvenidad a la comunidad de Peralta'},
+    {img: 'https://drive.google.com/uc?export=view&id=1DDvUiO-LLYJJP59GkIk5IlsW3SaVEE9L',target:'myModal15', estado:'actual', texto:'Iglesia de Peralta'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ewDKZZ09LtlUWCDrcBHv-C67mzHAV0oL',target:'myModal16', estado:'antiguas', texto:'Libro antiguo El niño prodigio'}
   ]
 };
 
