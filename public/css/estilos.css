@@ -9,9 +9,14 @@
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
-    background: #f9d5b5;
+    background: #818181;
 }
-
+.colorNavbar{
+    background: #2898DE;
+}
+.colorText{
+    color: #000;
+}
 .sample-header {
     /*  background-position: center;
       background-repeat: no-repeat;*/
@@ -146,8 +151,10 @@
 small, .small {
     font-size: 0.875em;
 }
+
 .feature-box-1 {
     padding: 32px;
+    background: #CAF0FD;
     box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
     margin: 15px 0;
     position: relative;
@@ -176,8 +183,8 @@ small, .small {
     bottom: 0;
     left: auto;
     right: 0;
-    border-radius: 10px;
-    width: 0;
+    border-radius: 1px;
+    width: 0;;
     background: #2898DE;
     z-index: -1;
     -moz-transition: ease all 0.35s;
@@ -191,7 +198,7 @@ small, .small {
 }
 
 .feature-box-1:hover p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     text-align: justify;
 }
 

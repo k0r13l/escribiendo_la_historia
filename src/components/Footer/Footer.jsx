@@ -45,10 +45,11 @@ const Footer = (props) => {
                             <div class="con con-3 w-100 py-5">
                                 <div class="con-info w-100 text-center">
                                     <div class="icon d-flex align-item-center justify-content-center">
-                                        <span class="glyphicon glyphicon-map-marker icono"></span>
+                                        <a class= "iconYoutube" href={props.footer.links.url2} target="_blank" rel="noopener noreferrer">
+                                            <span class="bi-youtube youtube iconYoutube"></span></a>
                                     </div>
                                     <div class="text">
-                                        <span>{props.footer.direccion}</span>
+                                        <span>{props.footer.youTube}</span>
                                     </div>
                                 </div>
                             </div>
@@ -74,9 +75,6 @@ const Footer = (props) => {
                                 <li class="ftco-animate"><a
                                     href={props.footer.links.url1} target="_blank" rel="noopener noreferrer"><span
                                         class="tcu">TCU</span></a></li>
-
-                                <li class="ftco-animate youtube"><a href={props.footer.links.url2} target="_blank" rel="noopener noreferrer"><span
-                                    class="bi-youtube youtube"></span></a></li>
 
                                 <li class="ftco-animate facebook"><a href={props.footer.links.url3} target="_blank" rel="noopener noreferrer"><span
                                     class="bi-facebook facebook"></span></a></li>

@@ -211,7 +211,7 @@ strong {
 }
 
 .navbar-brand {
-  color: var(--primary-color);
+  color: #000;
   font-size: 24px;
   font-weight: var(--font-weight-bold);
 }
@@ -244,7 +244,7 @@ strong {
 }
 
 .navbar-nav .nav-link {
-  color: var(--p-color);
+  color: #fcfeff;
   font-size: 18px;
   font-weight: var(--font-weight-bold);
   position: relative;
@@ -252,13 +252,15 @@ strong {
 
 .navbar-nav .nav-link:hover::after,
 .navbar-nav .nav-item.active .nav-link::after {
-  color: var(--primary-color);
+  color: var(--title-color);
   opacity: 1;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
-
+.iconYoutube{
+  margin-top: 5px;
+}
 .navbar-nav .nav-item.active .nav-link,
 .nav-link:focus, 
 .nav-link:hover {

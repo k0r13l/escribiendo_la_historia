@@ -16,8 +16,10 @@ const InfoComunidad = (props) => {
                             </div>
                         </div>
                         {props.info.info.map(info => (
-                            <div class="col-lg-6 col-12 mt-3 mb-lg-5 feature-box-1" key={info.id}>
-                                <p class="me-4" data-aos="fade-up">{info.text}</p>
+                            <div class="col-lg-6 col-12 mt-3 mb-lg-3" key={info.id}>
+                                <div class="feature-box-1">
+                                    <p class="me-4" data-aos="fade-up">{info.text}</p>
+                                </div>
                             </div>
                         ))}
                     </div>

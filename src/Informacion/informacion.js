@@ -37,12 +37,12 @@ export const menuPrincipal = {
     link: '#infoTcu'
   },
   opcion3: {
-    name: 'Libros',
-    link: '#libros'
-  },
-  opcion4: {
     name: 'Comunidades',
     link: '#comunidades'
+  },
+  opcion4: {
+    name: 'Libros',
+    link: '#libros'
   },
   opcion5: {
     name: 'Contactos',
@@ -59,7 +59,7 @@ export const mapaPrincipal = {
 export const footer = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -104,8 +104,9 @@ export const heroSantaTeresita = {
 export const infoSantaTeresita = {
   name:'Información Santa Teresita',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'El nombre oficial de la comunidad es Lajas. En el año 1938 unos señores alemanes regalaron una imagen que actualmente está en la iglesia católica que se llama Santa Teresita Niño Jesus. Como fue un regalo fue donde se comenzó el cambio de llamar Lajas por Santa Teresita', id:'1'},
+    {text: 'Las principales actividades agrícolas que tenía Santa Teresita era el café, cañas pero siendo el café la número uno de la zona, después de que fue bajando el precio al café algunas personas que tenían sus fincas con café fueron cortando para luego dedicarse a la ganadería', id:'2'},
+    {text: 'La cooperativa cafetalera que existió en su momento en Santa teresita llegó a ser el negocio más importante de la zona en su momento, contaban con el beneficio en sí, además tenían un aserradero, un negocio de abarrotes, entre otros', id:'2'}
   ]
 }
 
@@ -178,6 +179,13 @@ export const fotosSantaTeresita = {
       texto:'Actividad por el cantonato de Turrialba'
     },
     {
+      img: 'https://drive.google.com/uc?export=view&id=1gYCgZclJ3YqQbnR-FN7SFiRrTu0-TPH2',
+      target:'myModalVideo1', 
+      video:'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100082993879647%2Fvideos%2F1451464748691166%2F', 
+      id:'1', 
+      estado:'videos'
+    },
+    {
       img: 'https://drive.google.com/uc?export=view&id=1vvGfvh7--i-RtzxLs_hJMLwGCf4dy1BJ',
       target:'myModal13', 
       estado:'museo', 
@@ -189,6 +197,13 @@ export const fotosSantaTeresita = {
       estado:'museo', 
       texto:'Actividad en la escuela de Santa Teresita'
     },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1-pMhrDB7OjfprjmyUG4rl7ZFWNV7EQ12',
+      target:'myModalVideo2', 
+      video:'https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100082993879647%2Fvideos%2F771872453849854%2F', 
+      id:'2', 
+      estado:'videos'
+    }
   ]
 };
 
@@ -220,8 +235,9 @@ export const heroTuis = {
 export const infoTuis = {
   name:'Información Tuis',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'La famosa Casona, fue construida por alemanes, quienes fueron dueños de la finca de Tuis durante muchos años. Cuando la casa estaba desocupada el administrador abría las puertas para que las parejas fueran a bailar.', id:'1'},
+    {text: 'Las familias acostumbraban a producir sus propias comida algunos cultivos fueron: ayote, chayote, banano, plátano, yuca y tiquisque.', id:'2'},
+    {text: 'En el la decada de los 70 ocurrió una inundación, fue uno de los desatres mas terribles que a pasado el pueblo. Durante estos sucesos se fundo el Barrio 70, su nombre es debido a que los pobladores se tuvieron que mover del centro de tuis para poder construir las nuevas casa.', id:'3'}
   ]
 }
 
@@ -276,10 +292,30 @@ export const fotosTuis = {
       texto:'Zona de juegos para niños'
     },
     {
+      img: 'https://drive.google.com/uc?export=view&id=1NF3RXkdIqXBYYgd6PaolvUfeA2gHiMJX',
+      target:'myModalVideo1', 
+      video:'https://www.youtube.com/embed/cUhcimyrg6E', 
+      id:'1', 
+      estado:'videos'
+    },
+    {
       img: 'https://drive.google.com/uc?export=view&id=1Eit2n6qiT4quVa6B-WQcwm7NInoxi41A',
       target:'myModal10', 
       estado:'actual', 
       texto:'Plaza pública de deportes'
+    },{
+      img: 'https://drive.google.com/uc?export=view&id=1MUUN_OD5n08VDKk1alZst_rQ7HGDD40V',
+      target:'myModalVideo2', 
+      video:'https://www.youtube.com/embed/0KhQeKqLPIE', 
+      id:'2', 
+      estado:'videos'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1aHGvqEubhJ0TWIyl67HomliXeQgXcN_V',
+      target:'myModalVideo3', 
+      video:'https://www.youtube.com/embed/F07G9ARy-PA', 
+      id:'3', 
+      estado:'videos'
     }
   ]
   
@@ -362,8 +398,9 @@ export const heroSanAntonio = {
 export const infoSanAntonio = {
   name:'Información San Antonio',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'El primer nombre que de la comunidad fue El bajo de los rromeros. Se nombro de esta forma ya que, para llegar al valle había que bajar ademas los primeros terrenos fueron de los hermanos Romero Obando.', id:'1'},
+    {text: 'En sus inicios, SanAntonio no contaba con el servicio de electricidad, hasta el año 1971 donde se habilitó. Antes de este año lo que se usaba eran lámparas de canfín.', id:'2'},
+    {text: 'El parque de San Antonio lleva por nombre parque Antonio Drexler, homenaje al sacerdote alemán que llego al pueblo en los años 60', id:'3'}
   ]
 }
 
@@ -418,6 +455,13 @@ export const fotosSanAntonio = {
       texto:'Iglesia católica'
     },
     {
+      img: 'https://drive.google.com/uc?export=view&id=1Fa1-YVvv6iTgvaqE6OWkRwjy5fEZA8aQ',
+      target:'myModalVideo1', 
+      video:'https://www.youtube.com/embed/8ENRIomhTyo', 
+      id:'1', 
+      estado:'videos'
+    },
+    {
       img: 'https://drive.google.com/uc?export=view&id=1cHf_zNRk1KdErH2A7_gpVrqqVT_blhJa',
       target:'myModal9', 
       estado:'actual', 
@@ -447,6 +491,20 @@ export const fotosSanAntonio = {
       estado:'antiguas', 
       texto:'Boda de Don Colo y Doña Dulcelina'
     },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1biCWKLeMvc6RMDUf9Zgh5hgVblgXEN6l',
+      target:'myModalVideo2', 
+      video:'https://www.youtube.com/embed/ytAwIVO96KI', 
+      id:'2', 
+      estado:'videos'
+    },
+    {
+      img: 'https://drive.google.com/uc?export=view&id=1hK82wdB1Eld_QDtYeoZVRXoZtlqmDYQp',
+      target:'myModalVideo3', 
+      video:'https://www.youtube.com/embed/dgBQptqYuxM', 
+      id:'3', 
+      estado:'videos'
+    }
   ]
   
 };
@@ -479,8 +537,9 @@ export const heroSantaCruz = {
 export const infoSantaCruz = {
   name:'Información Santa Cruz',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'El nombre surge por una misión católica que se realizó en el pueblo durante quince días a cargo de sacerdotes misioneros en donde toda la comunidad participó. Los misiineros decidieron dejar sus huellas en el pueblo colocando una cruz en la comundidad, esta cruz es un simbolo y la identidad del pueblo.', id:'1'},
+    {text: 'El Antiguo Ingenio llegó gracias a Calixto fábrega, quien empezó a sembrar caña por todo el pueblo con la intención de crear un negocio con la idea de ayudar a los pobladores.', id:'2'},
+    {text: 'La primera escuela fue construida en 1938 y su estructura consistía de un armazón de madera y un forro de metal que asemeja el ladrillo. Jorge Debravo y Laureano Albán se formaron en esta institución.', id:'3'}
   ]
 }
 
@@ -488,9 +547,12 @@ export const fotosSantaCruz = {
   galeria:[
     {img: 'https://drive.google.com/uc?export=view&id=1FleCpxM_GXzSCRFiqXMGMzBPq2UyMKsJ',target:'myModal1', estado:'antiguas', texto:'Equipo de fútbol'},
     {img: 'https://drive.google.com/uc?export=view&id=1kIqqtyQohD-3mNYF_KRlAoiew2r6pmXa',target:'myModal2', estado:'antiguas', texto:'Foto antigua de unos niños en una plaza'},
+    {img: 'https://drive.google.com/uc?export=view&id=1O8ZIVLaWBOX3-sGjjwj1QJpYWULqjdfJ',target:'myModalVideo1', video:'https://www.youtube.com/embed/ldRIe2RfCzs', id:'1', estado:'videos'},
     {img: 'https://drive.google.com/uc?export=view&id=1RtZ0ynubEIlWjPWoh_0TmXUUPbSIJsBF',target:'myModal3', estado:'antiguas', texto:'Trabajadores'},
     {img: 'https://drive.google.com/uc?export=view&id=1NPti8N3VvWFV9iBKd_gYhdGBE83DsDet',target:'myModal4', estado:'antiguas', texto:'Carreta antiguas'},
-    {img: 'https://drive.google.com/uc?export=view&id=15tYxZMSuQ4paZQEPkixVwnd-S1fUJspt',target:'myModal5', estado:'antiguas', texto:'Fiestas patronales'}
+    {img: 'https://drive.google.com/uc?export=view&id=15tYxZMSuQ4paZQEPkixVwnd-S1fUJspt',target:'myModal5', estado:'antiguas', texto:'Fiestas patronales'},
+    {img: 'https://drive.google.com/uc?export=view&id=1047GGka5c8KS9OLoh66vSn1shTFwPY2S',target:'myModalVideo2', video:'https://www.youtube.com/embed/yo4Noz3_XkM', id:'2', estado:'videos'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ufapklquA_F32kXAPW211fiJ310JwfF8',target:'myModalVideo3', video:'https://www.youtube.com/embed/zGfGxyC0MPk', id:'3', estado:'videos'}
   ]
   
 };
@@ -523,8 +585,9 @@ export const heroAquiares = {
 export const infoAquiares = {
   name:'Información Aquiares',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'Aquiares proviene de un nombre indígena. Los materiales fueron traídos de otros países, de Alemania la gran parte y esto fue durante la administración de Don Stanley Lindo. El diseño de la iglesia es único, siempre lo han tratado de conservar. La iglesia era verde y luego le cambiaron el color amarillo', id:'1'},
+    {text: 'La escuela era una casa antigua, tenía varias aulas, cocina, corredores y toda era en madera. También hubo otra escuela donde se encuentra el teatro', id:'2'},
+    {text: 'Las carreras de cinta también era muy tradicionales, estas se hacían al frente de la oficina y también por la plaza de deportes; las muchachas entregaban una botella de vino a la persona que ganaba', id:'3'}
   ]
 }
 
@@ -543,6 +606,7 @@ export const fotosAquiares = {
     {img: 'https://drive.google.com/uc?export=view&id=1fNmBB_K1uCQ1BMYXdlU3npAeVReqGFmH',target:'myModal11', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
     {img: 'https://drive.google.com/uc?export=view&id=1ROTC7ZeiuwwesgXzm_LU0VL5gIFSfN1X',target:'myModal12', estado:'antiguas', texto:'Linterna antigua'},
     {img: 'https://drive.google.com/uc?export=view&id=1wsZ7_UmhW0gOGK8S4X9b37tYbV60r2FO',target:'myModal13', estado:'antiguas', texto:'Camara fotografica antigua'},
+    {img: 'https://drive.google.com/uc?export=view&id=1LndQjBCb_b5Fw_YrMKTsyYX2pQJTLlA8',target:'myModalVideo1', video:'https://www.youtube.com/embed/KLQNTUswjag', id:'1', estado:'videos'},
     {img: 'https://drive.google.com/uc?export=view&id=1T4WI7b8PsrelsH-peyrhsydyO0yJfyYK',target:'myModal14', estado:'actual', texto:'Inglesia de Aquiares'}
   ]
   
@@ -590,6 +654,7 @@ export const fotosSantaRosa = {
     {img: 'https://drive.google.com/uc?export=view&id=1SI0dils_iBBg5LBpDFJOD0Mftd_Dzt27',target:'myModal5', estado:'antiguas', texto:'Tractor antigua a comparación de la actualidad'},
     {img: 'https://drive.google.com/uc?export=view&id=1mjPCxkYw-xllmUxzQTd8mE7UIBEYrDOQ',target:'myModal6', estado:'museo', texto:'Entrada del museo que se realizó en la comunidad'},
     {img: 'https://drive.google.com/uc?export=view&id=1oYgAoHPs8RPDLmnTNYnaI4n2eCJ5erxD',target:'myModal7', estado:'museo', texto:'Recorrido en el museo'},
+    {img: 'https://drive.google.com/uc?export=view&id=1LndQjBCb_b5Fw_YrMKTsyYX2pQJTLlA8',target:'myModalVideo1', video:'https://www.youtube.com/embed/KLQNTUswjag', id:'1', estado:'videos'},
     {img: 'https://drive.google.com/uc?export=view&id=1WwYibhtg_yj_7nTrDz4I16sAnNj4j1Nt',target:'myModal8', estado:'museo', texto:'Recorrido en el museo'}
   ]
   
@@ -623,8 +688,10 @@ export const heroPeralta = {
 export const infoPeralta = {
   name:'Información Peralta',
   info:[
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'1'},
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel molestie eleifend, sapien nisi ultrices nunc, eu condimentum nisi nunc eu nisl. Sed non justo mi. Donec at nunc euismod, eleifend nisi eu, molestie nisi. Sed in orci at nunc ultrices eleifend', id:'2'}
+    {text: 'El nombre proviene de una familia de Cartago de apellido Peralta, que mantenía cercanas con el distrito hoy conocido como “Peralta” y por ese motivo consumó dicho nombre.', id:'1'},
+    {text: 'Los pueblos cercanos a lo que es hoy Peralta se formaron a raíz del ferrocarril, el ferrocarril se encargó de darle vida al pueblo hace más de 100 años, algunos de estos primeros habitantes llegaron como esclavos a Costa Rica', id:'2'},
+    {text: 'Lo primero que se cultivó en la zona fue banano inglés (criollo), estas bananeras le a un grupo de italianos. También se sembró abacá el cual se utilizaba para hacer mecates', id:'3'},
+    {text: 'En los años setentas Peralta sufre una inundación, que trajo muchas consecuencias negativas a los lugareños como: el templo católico, la antigua estación de policía, casas de habitación', id:'3'}
   ]
 }
 
@@ -641,10 +708,14 @@ export const fotosPeralta = {
     {img: 'https://drive.google.com/uc?export=view&id=1ojoHl1xO9dDRkT7YQ0opFzvHvfbKB2LD',target:'myModal9', estado:'actual', texto:'Don Efraín Bogantes y sus pinturas'},
     {img: 'https://drive.google.com/uc?export=view&id=1xLEHyt-EkcD7T438WhotFJgIWwgmmGu_',target:'myModal10', estado:'actual', texto:'Don Efraín Bogantes y sus pinturas'},
     {img: 'https://drive.google.com/uc?export=view&id=1ybvKh98Ox6SHBp-XbrVlG4JhgdIzu90s',target:'myModal11', estado:'actual', texto:'Río reventazon'},
+    {img: 'https://drive.google.com/uc?export=view&id=1-GyxjKAp-0krZN-2kJxvIcfg4tn7D8-p',target:'myModalVideo1', video:'https://www.youtube.com/embed/Jm-u2wHWgr4', id:'1', estado:'videos'},
     {img: 'https://drive.google.com/uc?export=view&id=14PTgWoH0urJQ06ZIbH-JhcDegH5YLeXh',target:'myModal12', estado:'actual', texto:'Actual puente de peatonal Peralta Río Reventazon'},
     {img: 'https://drive.google.com/uc?export=view&id=1Qw87wdigciCM1DSNdAq99LRjOhc3sxo8',target:'myModal13', estado:'actual', texto:'Letrero de Bienvenidad a la comunidad de Peralta'},
     {img: 'https://drive.google.com/uc?export=view&id=1DDvUiO-LLYJJP59GkIk5IlsW3SaVEE9L',target:'myModal15', estado:'actual', texto:'Iglesia de Peralta'},
-    {img: 'https://drive.google.com/uc?export=view&id=1ewDKZZ09LtlUWCDrcBHv-C67mzHAV0oL',target:'myModal16', estado:'antiguas', texto:'Libro antiguo El niño prodigio'}
+    {img: 'https://drive.google.com/uc?export=view&id=1bO-_WxbUAf6MwSPmlwv4SPT-Nnt_Og28',target:'myModalVideo2', video:'https://www.youtube.com/embed/MjqAAgQn3fE', id:'2', estado:'videos'},
+    {img: 'https://drive.google.com/uc?export=view&id=1ewDKZZ09LtlUWCDrcBHv-C67mzHAV0oL',target:'myModal16', estado:'antiguas', texto:'Libro antiguo El niño prodigio'},
+    {img: 'https://drive.google.com/uc?export=view&id=1G6bq7uxsDwGS1ei58k_3AkmlmGqOe8JM',target:'myModalVideo3', video:'https://www.youtube.com/embed/vDPLmNmTGhc', id:'3', estado:'videos'},
+    {img: 'https://drive.google.com/uc?export=view&id=1NbF70Ad_EkSYu3JninaLEUfhr0YOGsYZ',target:'myModalVideo4', video:'https://www.youtube.com/embed/HIkkdfzN40M', id:'4', estado:'videos'}
   ]
 };
 
