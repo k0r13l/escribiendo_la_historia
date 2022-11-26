@@ -20,9 +20,9 @@ class Home extends Component {
         <Menu menu={menuPrincipal}/>
         <br/>
         <Info info={info}/>
-        <Libros />
         <Comunidades />
         <br/>
+        <Libros />
         <Mapa mapa={mapaPrincipal}/>
         <Footer footer={footer}/>
       </div>

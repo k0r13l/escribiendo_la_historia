@@ -49,7 +49,7 @@ const GaleriaComunidad = (props) => {
                             </div>
                             <div class="modal-footer">
                                 <p class="me-4" id="textoImg">{img.texto}</p>
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>

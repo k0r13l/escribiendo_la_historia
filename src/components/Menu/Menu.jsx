@@ -1,7 +1,7 @@
 const Menu = (props) => {
     return (
         <div className="Menu">
-            <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <nav class="navbar navbar-expand-lg colorNavbar shadow-lg">
                 <div class="container">
                     <strong class="navbar-brand">TC-688 Turrialba</strong>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
