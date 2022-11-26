@@ -606,7 +606,7 @@ export const fotosAquiares = {
     {img: 'https://drive.google.com/uc?export=view&id=1fNmBB_K1uCQ1BMYXdlU3npAeVReqGFmH',target:'myModal11', estado:'museo', texto:'Museo que se realizó en la comunidad de Aquiares'},
     {img: 'https://drive.google.com/uc?export=view&id=1ROTC7ZeiuwwesgXzm_LU0VL5gIFSfN1X',target:'myModal12', estado:'antiguas', texto:'Linterna antigua'},
     {img: 'https://drive.google.com/uc?export=view&id=1wsZ7_UmhW0gOGK8S4X9b37tYbV60r2FO',target:'myModal13', estado:'antiguas', texto:'Camara fotografica antigua'},
-    {img: 'https://drive.google.com/uc?export=view&id=1LndQjBCb_b5Fw_YrMKTsyYX2pQJTLlA8',target:'myModalVideo1', video:'https://www.youtube.com/embed/KLQNTUswjag', id:'1', estado:'videos'},
+    {img: 'https://drive.google.com/uc?export=view&id=1HfPzkmj65azDClPMtjmiEF6DBxh1Q48G',target:'myModalVideo1', video:'https://www.youtube.com/embed/DWHPxjg5CoQ', id:'1', estado:'videos'},
     {img: 'https://drive.google.com/uc?export=view&id=1T4WI7b8PsrelsH-peyrhsydyO0yJfyYK',target:'myModal14', estado:'actual', texto:'Inglesia de Aquiares'}
   ]
   

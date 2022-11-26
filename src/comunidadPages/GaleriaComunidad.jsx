@@ -38,7 +38,7 @@ const GaleriaComunidad = (props) => {
                                 {(() => {
                                     if (img.video != null) {
                                         return (
-                                            <iframe class="embed-responsive-item d-block w-100" id={img.id} title="modal" src={img.video} allowFullScreen width="560" height="315"></iframe>
+                                            <iframe class="embed-responsive-item d-block w-100" id={img.id} title="modal" src={img.video} autoPlay allowFullScreen width="560" height="315" allow="autoplay;"></iframe>
                                         )
                                     }
                                     return (
