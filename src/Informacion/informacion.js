@@ -260,7 +260,7 @@ export const fotosTuis = {
       target:'myModal3', 
       estado:'antiguas', 
       texto:'Partido de fútbol, El polvazal (Campeones año 2000)'
-    },,
+    },
     {
       img: 'https://drive.google.com/uc?export=view&id=1HZEvYHDSGnCfCLwH5nKyPDZIFd9BLDsT',
       target:'myModal5', 
@@ -303,7 +303,8 @@ export const fotosTuis = {
       target:'myModal10', 
       estado:'actual', 
       texto:'Plaza pública de deportes'
-    },{
+    },
+    {
       img: 'https://drive.google.com/uc?export=view&id=1MUUN_OD5n08VDKk1alZst_rQ7HGDD40V',
       target:'myModalVideo2', 
       video:'https://www.youtube.com/embed/0KhQeKqLPIE', 
