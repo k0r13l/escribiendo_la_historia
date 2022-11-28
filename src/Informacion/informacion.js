@@ -216,7 +216,7 @@ export const mapaSantaTeresita = {
 export const footerSantaTeresita = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -330,7 +330,7 @@ export const mapaTuis = {
 export const footerTuis = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -379,7 +379,7 @@ export const mapaSuiza = {
 export const footerSuiza = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -518,7 +518,7 @@ export const mapaSanAntonio = {
 export const footerSanAntonio = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -566,7 +566,7 @@ export const mapaSantaCruz = {
 export const footerSantaCruz = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -621,7 +621,7 @@ export const mapaAquiares = {
 export const footerAquiares = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -669,7 +669,7 @@ export const mapaSantaRosa = {
 export const footerSantaRosa = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
@@ -728,7 +728,7 @@ export const mapaPeralta = {
 export const footerPeralta = {
   numero: '+506 6087-2635',
   email: 'historiasturrialbatc688@gmail.com',
-  direccion: 'Costa Rica, Provincia de Cartago, Turrialba',
+  youTube: 'Historias Turrialba página de YouTube',
   links: {
     url1: 'https://accionsocial.ucr.ac.cr/modalidades/trabajo-comunidad/matricula-tcu',
     url2: 'https://www.youtube.com/channel/UC8mAuNaBjx-9zFNnHqMMObw/videos',
