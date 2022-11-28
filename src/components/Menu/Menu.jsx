@@ -10,19 +10,59 @@ const Menu = (props) => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item ">
-                                <a class="nav-link active" href={props.menu.opcion1.link}>{props.menu.opcion1.name}</a>
+                                <a
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    class="nav-link active" 
+                                    href={props.menu.opcion1.link}>
+                                    {props.menu.opcion1.name}
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href={props.menu.opcion2.link}>{props.menu.opcion2.name}</a>
+                                <a
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    class="nav-link" 
+                                    href={props.menu.opcion2.link}>
+                                    {props.menu.opcion2.name}
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href={props.menu.opcion3.link}>{props.menu.opcion3.name}</a>
+                                <a  
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    class="nav-link" 
+                                    href={props.menu.opcion3.link}>
+                                    {props.menu.opcion3.name}
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href={props.menu.opcion4.link}>{props.menu.opcion4.name}</a>
+                                <a 
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    class="nav-link" 
+                                    href={props.menu.opcion4.link}>
+                                    {props.menu.opcion4.name}
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href={props.menu.opcion5.link}>{props.menu.opcion5.name}</a>
+                                <a
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    class="nav-link" 
+                                    href={props.menu.opcion5.link}>
+                                    {props.menu.opcion5.name}
+                                </a>
                             </li>
                         </ul>
                     </div>
